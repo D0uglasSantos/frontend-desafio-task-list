@@ -1,0 +1,15 @@
+<nav class="bg-gradient-to-r from-blue-600 to-purple-600 p-4 shadow-lg">
+  <div class="container mx-auto">
+    <div class="flex flex-col sm:flex-row justify-between items-center">
+      <a routerLink="/" class="text-white text-2xl font-bold mb-3 sm:mb-0">Gerenciador de tarefas</a>
+      <div class="flex space-x-4">
+        <a routerLink="/registro" class="text-white p-2 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">
+          <fa-icon [icon]="faPlusCircle" class="mr-1"></fa-icon> Nova Tarefa
+        </a>
+        <a routerLink="/lista" class="text-white p-2 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out">
+          <fa-icon [icon]="faList" class="mr-1"></fa-icon> Lista de Tarefas
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
